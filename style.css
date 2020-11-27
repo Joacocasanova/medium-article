@@ -1,0 +1,99 @@
+.banner {
+  background-image: linear-gradient(rgba(12, 12, 12, 0.548), rgba(0, 0, 0, 0)),url('images/maradona.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  text-align: center;
+  opacity: 1.0;
+}
+
+.banner h1 {
+  color: white;
+  font-family: Chivo;
+  position: relative;
+  top: 240px;
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.banner p {
+  color: white;
+  font-size: 35px;
+  font-family: Overpass;
+  position: relative;
+  top: 230px;
+}
+
+h2 {
+  color: #404042;
+  font-family: Overpass;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+h3 {
+  color: #404042;
+  font-family: Overpass;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+p {
+  color: #616162;
+  font-family: Overpass;
+  font-size: 25px;
+}
+
+.container {
+  width: 40%;
+  margin: 50px auto;
+}
+
+.link {
+    background-color: #c80f18;
+    color: rgb(230, 230, 230);
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 30%;
+}
+
+img {
+  width: 100%;
+}
+
+.link:hover {
+  background-color: #3ee1e7;
+  color: white;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
